@@ -4,6 +4,17 @@ Upload a photo of your food and get an itemized calorie and nutrition breakdown,
 
 **Live demo:** https://nutrition-gemini.streamlit.app/
 
+## Architecture
+
+```mermaid
+flowchart LR
+    U["Food photo upload"] --> S["Streamlit front end"]
+    S --> P["Structured nutritionist prompt<br/>plus image"]
+    P --> G["Gemini vision language model"]
+    G --> N["Itemized calorie and<br/>nutrition breakdown"]
+    N --> S
+```
+
 ## How it works
 
 1. A Streamlit front end accepts a food image
