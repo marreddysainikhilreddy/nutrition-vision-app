@@ -1,5 +1,9 @@
 # Nutrition Vision App: Multimodal Food Analysis with Gemini
 
+<p align="center">
+  <img src="docs/images/project-cover.jpg" alt="Nutrition Vision — multimodal ai" width="720" />
+</p>
+
 Upload a photo of your food and get an itemized calorie and nutrition breakdown, powered by the Gemini vision language model.
 
 **Live demo:** https://nutrition-gemini.streamlit.app/
